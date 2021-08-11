@@ -5,6 +5,7 @@
 */
 
 function reduceString(inputString) {
+    debugger;
     let s = inputString.split('');
     let continueOperation = true;
     while (continueOperation) {
@@ -22,4 +23,4 @@ function reduceString(inputString) {
     console.log("Formatted string : " + s.join(''))
 
 }
-
+reduceString('assd')
